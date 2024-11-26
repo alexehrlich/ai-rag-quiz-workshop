@@ -1,6 +1,6 @@
 import streamlit as st
 
-from rag import LearningAssistant
+from myrag import LearningAssistant
 
 # Initialize models and RAG
 rag = LearningAssistant.get_instance()
